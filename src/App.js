@@ -2,7 +2,10 @@ import React from 'react';
 import './sass/materialize.scss';
 import './App.css';
 
+import CounterSFC from './practice/CounterSFC';
+
 class App extends React.Component {
+  
   render() {
     return (
       <div>
@@ -11,7 +14,7 @@ class App extends React.Component {
             <div>두잇! 리액트 시작하기</div>
           </div>
         </nav>
-        <h1>머티리얼 CSS</h1>
+        <CounterSFC id="id2" />
       </div>
     );
   }
